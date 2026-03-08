@@ -12,9 +12,10 @@ dist/
 build/
 
 # Data Files
-*.csv
-*.xlsx
-*.xls
+# Allow CSV files in data/ directory
+data/*.csv
+data/*.xlsx
+data/*.xls
 *.db
 *.sqlite
 
