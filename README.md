@@ -22,16 +22,24 @@ A Flask web application for analyzing heart disease patient data with interactiv
 
 ```
 heart-data-analysis/
-├── README.md                 # Project documentation
-├── requirements.txt          # Python dependencies
-├── .gitignore               # Git ignore rules
-├── config.py                # Database configuration
-├── Procfile                 # Deployment config (Heroku)
-├── app.py                   # Flask application
-├── load.data.py             # MySQL data loader script
-├── data/
-│   └── Heart_new2.csv       # Dataset
-├── static/
+├── Documentation/           # Project documentation
+│   ├── BrainstormingTemplate.docx
+│   ├── Customer Journey Map - Example.docx
+│   ├── Data Flow Diagrams and User Stories.docx
+│   ├── Define Problem Statements Template_1.docx
+│   ├── Empathy Map Canvas.docx
+│   ├── Problem_solution_fit Sample Template.docx
+│   ├── Project Planning Template.docx
+│   ├── Project Report Documentation.docx
+│   ├── Proposed Solution-1.docx
+│   ├── Solution Architecture-1.docx
+│   ├── Solution Requirements-1.docx
+│   └── Technology Stack - 1.docx
+├── data/                     # Data files
+│   ├── raw/                  # Raw data
+│   │   └── Heart_new2.csv
+│   └── processed/            # Processed data
+├── static/                   # Static files
 │   ├── css/
 │   │   └── style.css
 │   └── images/
@@ -39,12 +47,19 @@ heart-data-analysis/
 │       ├── contact.png
 │       ├── hero.png
 │       └── hero1.png
-└── templates/
-    ├── base.html
-    ├── index.html
-    ├── about.html
-    ├── dashboard.html
-    └── story.html
+├── templates/                # HTML templates
+│   ├── base.html
+│   ├── index.html
+│   ├── about.html
+│   ├── dashboard.html
+│   └── story.html
+├── app.py                    # Flask application
+├── config.py                 # Database configuration
+├── load.data.py              # MySQL data loader script
+├── Procfile                  # Deployment config (Heroku)
+├── requirements.txt          # Python dependencies
+├── .gitignore                # Git ignore rules
+└── README.md                 # Project documentation
 ```
 
 ## Setup Instructions
