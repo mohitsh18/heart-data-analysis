@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-content">
+    <div class="hero-text">
+      <h1>Heart Disease <span class="highlight">Analysis</span></h1>
+      <p>
+        Analyze patient health data and gain real-time insights using 
+        interactive Tableau dashboards. Understand risk factors, identify 
+        patterns, and make data-driven decisions for better heart health.
+      </p>
+      <div class="hero-buttons">
+        <a href="{{ url_for('dashboard') }}" class="btn-primary">Explore Dashboard →</a>
+        <a href="{{ url_for('about') }}" class="btn-secondary">Learn More</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="{{ url_for('static', filename='images/hero1.png') }}" alt="Heart Analysis">
+    </div>
+  </div>
+</section>
+
+<!-- Stats Section -->
+<section class="stats-section">
+  <div class="stats-container">
+    <div class="stat-card">
+      <div class="stat-icon">❤️</div>
+      <div class="stat-number">40K+</div>
+      <div class="stat-label">Patients Analyzed</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon">📊</div>
+      <div class="stat-number">18+</div>
+      <div class="stat-label">Health Factors</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon">🖥️</div>
+      <div class="stat-number">5+</div>
+      <div class="stat-label">Interactive Dashboards</div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-icon">🔬</div>
+      <div class="stat-number">100%</div>
+      <div class="stat-label">Data-Driven Insights</div>
+    </div>
+  </div>
+</section>
+
+<!-- Features Section -->
+<section class="features-section">
+  <div class="features-container">
+    <h2>What We Offer</h2>
+    <p class="section-subtitle">Comprehensive heart disease analysis and visualization</p>
+    
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">📈</div>
+        <h3>Interactive Dashboards</h3>
+        <p>Explore dynamic Tableau visualizations with real-time filtering and drill-down capabilities</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">👥</div>
+        <h3>Demographic Analysis</h3>
+        <p>Analyze heart disease patterns across different age groups, genders, and ethnicities</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🏃</div>
+        <h3>Lifestyle Factors</h3>
+        <p>Understand how smoking, alcohol, and physical activity impact heart health</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🏥</div>
+        <h3>Medical Insights</h3>
+        <p>Discover correlations between BMI, diabetes, stroke, and heart disease</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📖</div>
+        <h3>Data Stories</h3>
+        <p>Visual storytelling that makes complex health data easy to understand</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔍</div>
+        <h3>Risk Identification</h3>
+        <p>Identify key risk factors for early detection and prevention</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section">
+  <div class="cta-container">
+    <h2>Ready to Explore the Data?</h2>
+    <p>Start discovering insights about heart disease through our interactive dashboards</p>
+    <a href="{{ url_for('dashboard') }}" class="btn-primary btn-large">View Dashboard</a>
+  </div>
+</section>
+
+{% endblock %}
+
