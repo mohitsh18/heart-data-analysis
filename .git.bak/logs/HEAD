@@ -1,6 +1,0 @@
-0000000000000000000000000000000000000000 29771d08f6aaf6afccb5c663d62ec554a0105017 Sakshi179999 <sakshi.sharma.s057@gmail.com> 1772945717 +0530	commit (initial): Initial commit: Heart Disease Data Analysis Flask App
-29771d08f6aaf6afccb5c663d62ec554a0105017 0f93f7f50d4084492cce7b6a41796d1d1e9c6822 Sakshi179999 <sakshi.sharma.s057@gmail.com> 1772946935 +0530	commit: Restructure project to cleaner file organization
-0f93f7f50d4084492cce7b6a41796d1d1e9c6822 0a7a4a7b00044731e20da913a364673e4bc70ed4 mohitsh18 <mohitsharma40165@gmail.com> 1772947154 +0530	commit (amend): Restructure project to cleaner file organization
-0a7a4a7b00044731e20da913a364673e4bc70ed4 0a7a4a7b00044731e20da913a364673e4bc70ed4 mohitsh18 <mohitsharma40165@gmail.com> 1772947205 +0530	rebase (abort): returning to refs/heads/master
-0a7a4a7b00044731e20da913a364673e4bc70ed4 0a7a4a7b00044731e20da913a364673e4bc70ed4 mohitsh18 <mohitsharma40165@gmail.com> 1772947205 +0530	rebase (abort): returning to refs/heads/master
-0a7a4a7b00044731e20da913a364673e4bc70ed4 a574be013376704b040b1b4d5c86dffaae84652d mohitsh18 <mohitsharma40165@gmail.com> 1772947154 +0530	filter-branch: rewrite
